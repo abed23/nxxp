@@ -1,0 +1,18 @@
+--cpu Cortex-M0+
+".\frdm-tfc\tfc.o"
+"mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/cmsis_nvic.o"
+"mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/mbed.ar"
+"mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/retarget.o"
+"mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/startup_MKL25Z4.o"
+"mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/sys.o"
+"mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/system_MKL25Z4.o"
+".\frdm-tfc\main.o"
+".\frdm-tfc\improc.o"
+".\frdm-tfc\speed.o"
+".\frdm-tfc\steering.o"
+".\frdm-tfc\position.o"
+".\frdm-tfc\test.o"
+--scatter "mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/MKL25Z4.sct"
+--show_full_path --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\BUILD\TFC-TEST.map" -o .\FRDM-TFC\TFC-TEST.axf
