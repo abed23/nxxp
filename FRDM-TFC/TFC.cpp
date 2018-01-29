@@ -970,6 +970,10 @@ void TFC_SetMotorPWM(float MotorA , float MotorB)
     else if(MotorB<-1.0)
         MotorB = -1.0;
 
+	/* 
+	 * Acess the register 
+	 *
+	*/
     TPM0->CONTROLS[2].CnV = (uint16_t) ((float)TPM0->MOD * (float)((MotorA + 1.0)/2.0));
     TPM0->CONTROLS[3].CnV = TPM0->CONTROLS[2].CnV;
     TPM0->CONTROLS[0].CnV = (uint16_t) ((float)TPM0->MOD * (float)((MotorB + 1.0)/2.0));

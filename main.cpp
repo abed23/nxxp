@@ -121,9 +121,9 @@ void pid() {
 	float kI = 0; //KI_TUN;
 	float kD = 0; //KD_TUN;
 	
-	kP = kP * abs(TFC_ReadPot(0) * 2.5);
+	kP = kP * abs(TFC_ReadPot(0) * 4);
 	kD = 0 ;
-	if (PRINT_PID) pc.printf("KP:\t%3.3f \tKD: \t %3.3f \r\n", abs(TFC_ReadPot(0) * 2.5), kD); 
+	if (PRINT_PID) pc.printf("KP:\t%3.3f \tKD: \t %3.3f \r\n", abs(TFC_ReadPot(0) * 4), kD); 
 	
 	
 	// Calculate the distance between two lines
@@ -373,7 +373,8 @@ int main() {
 							motorTest = 100;
 						
 					} else {
-							TFC_HBRIDGE_ENABLE;
+							TFC_HB#define PID_DATA_LEN		CAM_DATA_LEN - 4						// Take away filtered out pixels
+RIDGE_ENABLE;
 							motorTest--;
 					}							
 

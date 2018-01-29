@@ -22,7 +22,8 @@
  * ------------------------------- */
 #define RACE_MODE_TICKS		20										// Race mode update delay
 #define	MOTOR_OFF			0										// No motor
-#define COM_DEMO			0										// 0 - switch setup for servo calibration, 1 - COM port servo
+#define COM_DEMO			0 										// 0 - switch setup for servo calibration, 1 - COM port servo
+#define PID_DATA_LEN		CAM_DATA_LEN - 4						// Take away filtered out pixels
 
 /* ------------------------------- *
 	CALCULATION CONSTANTS
@@ -56,18 +57,17 @@
 	SPEED SETUP
  * ------------------------------- */
 #define SPEED_MODE			2										// Speed mode selection
-#define SPEED_SLOW			0.35									// Testing purposes
-#define SPEED_MIN			0.3										// Slow speed for race
-#define SPEED_MAX			0.55									// Risky TOP SPEED
+#define SPEED_SLOW			0.3									// Testing purposes
+#define SPEED_MIN			0.25										// Slow speed for race
+#define SPEED_MAX			0.47									// Risky TOP SPEED
 #define RELATIVE_MIN_ERR	10										// Minimum error thres for relative wheel speed -/+ pix10
-#define PID_DATA_LEN		CAM_DATA_LEN - 4						// Take away filtered out pixels
 
 /* ------------------------------- *
 	STEERING SETUP
  * ------------------------------- */
-#define MAX_TURN_LEFT		-0.54									// Max left turn to avoid blocking wheels
-#define MAX_TURN_RIGHT		0.36									// Max right turn to avoid blocking wheels
-#define SERVO_ERROR			-0.09									// Servo error - center wheel position
+#define MAX_TURN_LEFT		-0.33									// Max left turn to avoid blocking wheels
+#define MAX_TURN_RIGHT		0.56									// Max right turn to avoid blocking wheels
+#define SERVO_ERROR			(MAX_TURN_LEFT + MAX_TURN_RIGHT)/2		// Servo error - center wheel position
 #define	CENTER_POS			0										// 0.0
 #define CENTER_CAMERA		63										// int midpoint
 #define	MIN_NO_LINE			0										// If cannot find line in 3 tries = 60mS, pos get updated to 0.0

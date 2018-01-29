@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\FRDM-TFC\TFC-TEST.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\FRDM-TFC\TFC-TEST.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Sun Jan 28 23:43:55 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Mon Jan 29 17:09:06 2018
 <BR><P>
 <H3>Maximum Stack Usage =        896 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1472,11 +1472,11 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
 <LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_infnan
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_locale
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_udiv10
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> printf1.o(x$fpl$printf1)
 </UL>
@@ -1892,7 +1892,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
-<P><STRONG><a name="[129]"></a>updateSpeed(float)</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, .\frdm-tfc\speed.o(i._Z11updateSpeedf))
+<P><STRONG><a name="[129]"></a>updateSpeed(float)</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, .\frdm-tfc\speed.o(i._Z11updateSpeedf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = updateSpeed(float) &rArr; TFC_SetMotorPWM(float, float) &rArr; __aeabi_ddiv
 </UL>
 <BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TFC_SetMotorPWM(float, float)
@@ -2082,7 +2082,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TFC_Init()
 </UL>
 
-<P><STRONG><a name="[12a]"></a>updateSpeedRelative(float*, float*, float)</STRONG> (Thumb, 180 bytes, Stack size 56 bytes, .\frdm-tfc\speed.o(i._Z19updateSpeedRelativePfS_f))
+<P><STRONG><a name="[12a]"></a>updateSpeedRelative(float*, float*, float)</STRONG> (Thumb, 184 bytes, Stack size 56 bytes, .\frdm-tfc\speed.o(i._Z19updateSpeedRelativePfS_f))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = updateSpeedRelative(float*, float*, float) &rArr; __aeabi_dmul
 </UL>
 <BR>[Calls]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cfrcmple
@@ -2120,8 +2120,8 @@ Global Symbols
 <LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
-<P><STRONG><a name="[14b]"></a>pid()</STRONG> (Thumb, 598 bytes, Stack size 80 bytes, .\frdm-tfc\main.o(i._Z3pidv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = pid() &rArr; TFC_ReadPot(unsigned char) &rArr; __aeabi_ddiv
+<P><STRONG><a name="[14b]"></a>pid()</STRONG> (Thumb, 572 bytes, Stack size 64 bytes, .\frdm-tfc\main.o(i._Z3pidv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = pid() &rArr; TFC_ReadPot(unsigned char) &rArr; __aeabi_ddiv
 </UL>
 <BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::abs(float)
 <LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TFC_ReadPot(unsigned char)
@@ -2277,9 +2277,9 @@ Global Symbols
 <LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_vec_dtor
 </UL>
 <BR>[Address Reference Count : 5]<UL><LI> main.o(i.__sti___8_main_cpp_9252b242)
+<LI> improc.o(i.__sti___10_improc_cpp_33f3e69d)
 <LI> speed.o(i.__sti___9_speed_cpp_a411066e)
 <LI> steering.o(i.__sti___12_steering_cpp_83d5c801)
-<LI> improc.o(i.__sti___10_improc_cpp_33f3e69d)
 <LI> Serial.o(.constdata__ZTVN4mbed6SerialE)
 </UL>
 <P><STRONG><a name="[1e6]"></a>mbed::Serial::~Serial__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, .\frdm-tfc\main.o(i._ZN4mbed6SerialD1Ev), UNUSED)
