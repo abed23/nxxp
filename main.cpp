@@ -121,7 +121,7 @@ void pid() {
 	float kI = 0; //KI_TUN;
 	float kD = 0; //KD_TUN;
 	
-	kP = kP * abs(TFC_ReadPot(0) * 4);
+	kP = kP * 1.3; //abs(TFC_ReadPot(0) * 4);
 	kD = 0 ;
 	if (PRINT_PID) pc.printf("KP:\t%3.3f \tKD: \t %3.3f \r\n", abs(TFC_ReadPot(0) * 4), kD); 
 	
@@ -373,8 +373,7 @@ int main() {
 							motorTest = 100;
 						
 					} else {
-							TFC_HB#define PID_DATA_LEN		CAM_DATA_LEN - 4						// Take away filtered out pixels
-RIDGE_ENABLE;
+							TFC_HBRIDGE_ENABLE;
 							motorTest--;
 					}							
 
@@ -440,7 +439,7 @@ RIDGE_ENABLE;
 					else 
 						lostTrack = 0;
 					
-					if (lostTrack > 80)
+					if (lostTrack > 30)
 						offTheTrack = 1;
 					
 				}

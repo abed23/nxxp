@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\FRDM-TFC\TFC-TEST.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\FRDM-TFC\TFC-TEST.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Mon Jan 29 17:09:06 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Tue Jan 30 10:52:24 2018
 <BR><P>
 <H3>Maximum Stack Usage =        896 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1850,8 +1850,7 @@ Global Symbols
 <LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 <LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pid()
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
+<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
 <P><STRONG><a name="[11e]"></a>detectEdges(const short*, unsigned char*, unsigned char*)</STRONG> (Thumb, 118 bytes, Stack size 24 bytes, .\frdm-tfc\improc.o(i._Z11detectEdgesPKsPhS1_))
@@ -2082,7 +2081,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TFC_Init()
 </UL>
 
-<P><STRONG><a name="[12a]"></a>updateSpeedRelative(float*, float*, float)</STRONG> (Thumb, 184 bytes, Stack size 56 bytes, .\frdm-tfc\speed.o(i._Z19updateSpeedRelativePfS_f))
+<P><STRONG><a name="[12a]"></a>updateSpeedRelative(float*, float*, float)</STRONG> (Thumb, 182 bytes, Stack size 56 bytes, .\frdm-tfc\speed.o(i._Z19updateSpeedRelativePfS_f))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = updateSpeedRelative(float*, float*, float) &rArr; __aeabi_dmul
 </UL>
 <BR>[Calls]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cfrcmple
@@ -2120,11 +2119,10 @@ Global Symbols
 <LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
-<P><STRONG><a name="[14b]"></a>pid()</STRONG> (Thumb, 572 bytes, Stack size 64 bytes, .\frdm-tfc\main.o(i._Z3pidv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = pid() &rArr; TFC_ReadPot(unsigned char) &rArr; __aeabi_ddiv
+<P><STRONG><a name="[14b]"></a>pid()</STRONG> (Thumb, 560 bytes, Stack size 64 bytes, .\frdm-tfc\main.o(i._Z3pidv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = pid() &rArr; __aeabi_dmul
 </UL>
 <BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::abs(float)
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TFC_ReadPot(unsigned char)
 <LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cfrcmple
 <LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fmul
 <LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cfcmpeq

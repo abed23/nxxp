@@ -1,5 +1,5 @@
 Dependencies for Project 'TFC-TEST', Target 'TFC-TEST': (DO NOT MODIFY !)
-F (FRDM-TFC/TFC.cpp)(0x5A6F5531)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\tfc.o --omf_browse .\frdm-tfc\tfc.crf --depend .\frdm-tfc\tfc.d)
+F (FRDM-TFC/TFC.cpp)(0x5A704E67)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\tfc.o --omf_browse .\frdm-tfc\tfc.crf --depend .\frdm-tfc\tfc.d)
 I (mbed_config.h)(0x5A6E61F4)
 I (mbed/./mbed.h)(0x5A6E61F4)
 I (mbed/./platform.h)(0x5A6E61F4)
@@ -36,7 +36,7 @@ I (mbed/./analogout_api.h)(0x5A6E61F4)
 I (mbed/./PwmOut.h)(0x5A6E61F4)
 I (mbed/./pwmout_api.h)(0x5A6E61F4)
 I (mbed/./Serial.h)(0x5A6E61F4)
-I (mbed/./Stream.h)(0x5A6E61F4)
+I (mbed/./Stream.h)(0x5A7033B7)
 I (mbed/./FileLike.h)(0x5A6E61F4)
 I (mbed/./FileBase.h)(0x5A6E61F4)
 I (mbed/./FileHandle.h)(0x5A6E61F4)
@@ -136,7 +136,7 @@ F (mbed/SPI.h)(0x5A6E61F4)()
 F (mbed/spi_api.h)(0x5A6E61F4)()
 F (mbed/SPISlave.h)(0x5A6E61F4)()
 F (mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/startup_MKL25Z4.o)(0x5A6E61F4)()
-F (mbed/Stream.h)(0x5A6E61F4)()
+F (mbed/Stream.h)(0x5A7033B7)()
 F (mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/sys.o)(0x5A6E61F4)()
 F (mbed/TARGET_KL25Z/system_MKL25Z4.h)(0x5A6E61F4)()
 F (mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD/system_MKL25Z4.o)(0x5A6E61F4)()
@@ -147,9 +147,9 @@ F (mbed/TimerEvent.h)(0x5A6E61F4)()
 F (mbed/toolchain.h)(0x5A6E61F4)()
 F (mbed/us_ticker_api.h)(0x5A6E61F4)()
 F (mbed/wait_api.h)(0x5A6E61F4)()
-F (main.cpp)(0x5A6F2004)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\main.o --omf_browse .\frdm-tfc\main.crf --depend .\frdm-tfc\main.d)
+F (main.cpp)(0x5A7044F8)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\main.o --omf_browse .\frdm-tfc\main.crf --depend .\frdm-tfc\main.d)
 I (mbed_config.h)(0x5A6E61F4)
-I (settings.h)(0x5A6F5531)
+I (settings.h)(0x5A704E66)
 I (FRDM-TFC\TFC.h)(0x5A6E61F4)
 I (mbed/./mbed.h)(0x5A6E61F4)
 I (mbed/./platform.h)(0x5A6E61F4)
@@ -186,7 +186,7 @@ I (mbed/./analogout_api.h)(0x5A6E61F4)
 I (mbed/./PwmOut.h)(0x5A6E61F4)
 I (mbed/./pwmout_api.h)(0x5A6E61F4)
 I (mbed/./Serial.h)(0x5A6E61F4)
-I (mbed/./Stream.h)(0x5A6E61F4)
+I (mbed/./Stream.h)(0x5A7033B7)
 I (mbed/./FileLike.h)(0x5A6E61F4)
 I (mbed/./FileBase.h)(0x5A6E61F4)
 I (mbed/./FileHandle.h)(0x5A6E61F4)
@@ -217,7 +217,7 @@ I (speed.h)(0x5A6E61F4)
 I (steering.h)(0x5A6E61F4)
 F (.\improc.cpp)(0x5A6E61F4)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\improc.o --omf_browse .\frdm-tfc\improc.crf --depend .\frdm-tfc\improc.d)
 I (mbed_config.h)(0x5A6E61F4)
-I (settings.h)(0x5A6F5531)
+I (settings.h)(0x5A704E66)
 I (FRDM-TFC\TFC.h)(0x5A6E61F4)
 I (mbed/./mbed.h)(0x5A6E61F4)
 I (mbed/./platform.h)(0x5A6E61F4)
@@ -254,7 +254,7 @@ I (mbed/./analogout_api.h)(0x5A6E61F4)
 I (mbed/./PwmOut.h)(0x5A6E61F4)
 I (mbed/./pwmout_api.h)(0x5A6E61F4)
 I (mbed/./Serial.h)(0x5A6E61F4)
-I (mbed/./Stream.h)(0x5A6E61F4)
+I (mbed/./Stream.h)(0x5A7033B7)
 I (mbed/./FileLike.h)(0x5A6E61F4)
 I (mbed/./FileBase.h)(0x5A6E61F4)
 I (mbed/./FileHandle.h)(0x5A6E61F4)
@@ -283,7 +283,7 @@ I (mbed/./rtc_time.h)(0x5A6E61F4)
 F (.\improc.h)(0x5A6E61F4)()
 F (.\speed.cpp)(0x5A6E61F4)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\speed.o --omf_browse .\frdm-tfc\speed.crf --depend .\frdm-tfc\speed.d)
 I (mbed_config.h)(0x5A6E61F4)
-I (settings.h)(0x5A6F5531)
+I (settings.h)(0x5A704E66)
 I (FRDM-TFC\TFC.h)(0x5A6E61F4)
 I (mbed/./mbed.h)(0x5A6E61F4)
 I (mbed/./platform.h)(0x5A6E61F4)
@@ -320,7 +320,7 @@ I (mbed/./analogout_api.h)(0x5A6E61F4)
 I (mbed/./PwmOut.h)(0x5A6E61F4)
 I (mbed/./pwmout_api.h)(0x5A6E61F4)
 I (mbed/./Serial.h)(0x5A6E61F4)
-I (mbed/./Stream.h)(0x5A6E61F4)
+I (mbed/./Stream.h)(0x5A7033B7)
 I (mbed/./FileLike.h)(0x5A6E61F4)
 I (mbed/./FileBase.h)(0x5A6E61F4)
 I (mbed/./FileHandle.h)(0x5A6E61F4)
@@ -349,7 +349,7 @@ I (mbed/./rtc_time.h)(0x5A6E61F4)
 F (.\speed.h)(0x5A6E61F4)()
 F (.\steering.cpp)(0x5A6E61F4)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\steering.o --omf_browse .\frdm-tfc\steering.crf --depend .\frdm-tfc\steering.d)
 I (mbed_config.h)(0x5A6E61F4)
-I (settings.h)(0x5A6F5531)
+I (settings.h)(0x5A704E66)
 I (FRDM-TFC\TFC.h)(0x5A6E61F4)
 I (mbed/./mbed.h)(0x5A6E61F4)
 I (mbed/./platform.h)(0x5A6E61F4)
@@ -386,7 +386,7 @@ I (mbed/./analogout_api.h)(0x5A6E61F4)
 I (mbed/./PwmOut.h)(0x5A6E61F4)
 I (mbed/./pwmout_api.h)(0x5A6E61F4)
 I (mbed/./Serial.h)(0x5A6E61F4)
-I (mbed/./Stream.h)(0x5A6E61F4)
+I (mbed/./Stream.h)(0x5A7033B7)
 I (mbed/./FileLike.h)(0x5A6E61F4)
 I (mbed/./FileBase.h)(0x5A6E61F4)
 I (mbed/./FileHandle.h)(0x5A6E61F4)
@@ -415,6 +415,6 @@ I (mbed/./rtc_time.h)(0x5A6E61F4)
 F (.\steering.h)(0x5A6E61F4)()
 F (.\position.cpp)(0x5A6E61F4)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\position.o --omf_browse .\frdm-tfc\position.crf --depend .\frdm-tfc\position.d)
 I (mbed_config.h)(0x5A6E61F4)
-F (.\settings.h)(0x5A6F5531)()
+F (.\settings.h)(0x5A704E66)()
 F (.\test.cpp)(0x5A6E61F4)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I . -I FRDM-TFC -I mbed/. -I mbed/TARGET_KL25Z -I mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD -DDEVICE_PORTOUT=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KL25Z -D__CORTEX_M0PLUS -DMBED_BUILD_TIMESTAMP=1512991641.47 -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_SLEEP=1 --split_sections -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DTARGET_KLXX -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -Ospace -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DTARGET_CORTEX -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_TFC-TEST-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="524" -DMKL25Z128xxx4-o .\frdm-tfc\test.o --omf_browse .\frdm-tfc\test.crf --depend .\frdm-tfc\test.d)
 I (mbed_config.h)(0x5A6E61F4)
